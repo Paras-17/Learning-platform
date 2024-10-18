@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask environment variables
+instance/
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# MongoDB data and logs (in case you have local MongoDB data folders)
+data/
+*.log
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage/
+*.mocha.js
+
+# Translations
+*.pot
+*.po
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.sqlite3
+
+# Logs and local database
+*.log
+*.db
+*.sqlite
+
+# Flask cache
+flask_session/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Deployment
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Docker
+docker-compose*.yaml
+Dockerfile
+*.env
+
+# Ignore gitignore itself
+!.gitignore
